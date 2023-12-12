@@ -1,0 +1,7 @@
+{
+  "name": "congenial-waffle",
+  "private": true,
+  "release": {
+    "branches": ["main"]
+  }
+}
