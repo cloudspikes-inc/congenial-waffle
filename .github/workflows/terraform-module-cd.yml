@@ -1,10 +1,15 @@
 name: "Test Release versioning"
 
+# on:
+#   workflow_call:
+#     secrets:
+#       initToken:
+#         required: true
+
 on:
-  workflow_call:
-    secrets:
-      initToken:
-        required: true
+  push:
+    branches:
+      - main
 
 permissions:
   contents: write
